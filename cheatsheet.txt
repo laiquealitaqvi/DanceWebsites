@@ -1,0 +1,20 @@
+touch .gitignore
+git config --global user .name "Laique"
+git config --global user.email "laiquealitaqvi786@gmail.com"
+git init
+git add .
+git commit -m "Initial Commit"
+git status # Just to see
+
+{ssh-keygen -t ed25519 -C "laiquealitaqvi786@.com"
+Enter file in which to save the key (/c/Users/Admin/.ssh/id_ed25519):
+Enter passphrase (empty for no passphrase):
+cat /c/Users/Admin/.ssh/id_ed25519.pub}
+
+{git remote add origin <ssh url.git>
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIK6O7++7Fn9BoeQwkHtjF1pXHzgKmiihrlR0JzSIO4h/ laiquealitaqvi786@.com
+#Add this key to your GitHub Account}
+
+git push origin master
+ 
+
