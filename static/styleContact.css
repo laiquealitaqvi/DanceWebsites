@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Gloock&family=Labrada:wght@200&family=Raleway:ital,wght@0,100;0,400;1,100&display=swap');
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    margin: 12px 0 ;
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+.myInput{
+    text-align: center;
+    font-size: 15px;
+    width: 40%;
+    padding: 9px;
+    margin: 11px;
+    border-radius: 11px;
+    border: 2px solid rgb(129, 40, 40);
+    outline: none;
+   
+}
+.btn{
+    cursor: pointer;
+    padding: 7px 11px;
+    font-size: 18px;
+    border: 2px solid blue;
+    border-radius: 18px;
+    color: wheat;
+    background: rgb(129, 40, 40);
+    margin: 21px;
+}
+.container{
+    min-height: 90vh;
+    
+}
+.container h1{
+    font-size: 23px;
+    font-family: 'Anton', sans-serif;
+}

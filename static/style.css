@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Gloock&family=Labrada:wght@200&family=Raleway:ital,wght@0,100;0,400;1,100&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#logo {
+    display: flex;
+    color: rgb(12, 232, 49);
+    align-items: center;
+    margin-right: 3%;
+    margin-left: 350px;
+
+}
+
+#logo img {
+    height: 41px;
+    /* filter: invert(1); */
+
+
+}
+
+#navbar {
+    padding: 13px, 14px;
+    
+    
+}
+
+#navbar ul {
+    background-color: rgb(93, 96, 67);
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    padding: 1px;
+    font-family: 'Anton', sans-serif;
+    align-items: center;
+
+
+}
+
+#navbar li {
+    list-style: none;
+    display: flex;
+
+}
+
+#navbar li a {
+    text-decoration: none;
+    padding: 7px 11px;
+    color: rgb(95, 48, 27);
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+#navbar li a:hover {
+    text-decoration: none;
+    padding: 7px 11px;
+    color: rgb(161, 135, 239);
+
+}
+
+#introSection {
+    padding-bottom: 101px;
+    color: rgb(247, 227, 7);
+    background: center / cover no-repeat url("../static/bg.jpg");
+    height: 421px;
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.8rem;
+    font-weight: bold;
+    /* text-align: center; */
+
+}
+
+#introSection div.small {
+    font-size: 1.3rem;
+    color: rgb(206, 27, 87);
+    padding: 7px;
+}
+
+#MissionSection {
+    height: 350px;
+    background-color: rgb(101, 96, 96);
+
+
+
+}
+
+#MissionSection h2 {
+    text-align: center;
+    padding: 11px;
+    font-size: 35px;
+    
+
+
+}
+
+.card {
+    display: inline-block;
+    border: 2px solid red;
+    border-radius: 11px;
+    width: 30%;
+    margin: 21px 21px;
+    height: 250px;
+    background-color: aquamarine;
+
+
+}
+
+.card h3 {
+    text-align: center;
+    margin: 11px;
+    margin-top: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: blueviolet;
+}
+
+.card-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img {
+    height: 100px;
+    padding: 0px 10px;
+}
+
+.card-img img {
+    height: inherit;
+}
+
+.card-content {
+    padding: 0 10px;
+}
+
+.card-content p {
+    font-size: 15px;
+}
+
+#sponsorsSection {
+    font-size: 25px;
+    height: 250px;
+    background-color: yellow;
+
+}
+
+#sponsorsSection h2 {
+    text-align: center;
+    padding-top: 25px;
+    
+
+}
+
+#sponsors {
+    height: 120px;
+    max-width: 1000px;
+    margin: auto;
+    margin-left: 30%;
+    margin-top: 21px;
+}
+
+.spImage {
+    height: 70%;
+    margin: 20px;
+}
+
+#footer {
+    height: 60px;
+    background-color: lightcoral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+    
+
+
+}
